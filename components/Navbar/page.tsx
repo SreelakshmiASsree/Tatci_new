@@ -21,7 +21,7 @@ export default function Navbar() {
                                 alt="Company Logo"
                                 width={80}
                                 height={80}
-                                className="w-40 md:w-20"
+                                className="w-20 md:w-20"
                             />
                         </Link>
                     </div>
@@ -50,7 +50,7 @@ export default function Navbar() {
                     {/* Mobile Menu Button */}
                     <button
                         onClick={() => setIsOpen(true)}
-                        className="lg:hidden text-3xl text-gray-800"
+                        className="lg:hidden text-3xl text-white"
                     >
                         <IoReorderThree />
                     </button>
@@ -65,20 +65,20 @@ export default function Navbar() {
                                 <MdClose />
                             </button>
 
-                            <div className="flex flex-col items-center justify-center gap-4">
-                                <button className="lg:text-lg font-normal py-1 px-5 rounded-xl hover:bg-[#ffe2e2]">
+                            <div className="flex flex-col items-center justify-center gap-4 ">
+                                <button className="lg:text-lg text-sm font-semibold   py-1 px-3 rounded-xl hover:bg-[#ffe2e2]  bg-[#02dcfe]">
                                     Home
                                 </button>
-                                <button className="lg:text-lg font-normal py-1 px-5 rounded-xl hover:bg-[#ffe2e2]">
+                                <button className="lg:text-lg text-sm  font-semibold  py-1 px-5 rounded-xl hover:bg-[#ffe2e2] bg-[#02dcfe]">
                                     Agency
                                 </button>
-                                <button className="lg:text-lg font-normal py-1 px-5 rounded-xl hover:bg-[#ffe2e2]">
+                                <button className="lg:text-lg text-sm  font-semibold  py-1 px-5 rounded-xl hover:bg-[#ffe2e2] bg-[#02dcfe]">
                                     CoWorking
                                 </button>
-                                <button className="lg:text-lg font-normal py-1 px-5 rounded-xl hover:bg-[#ffe2e2]">
+                                <button className="lg:text-lg text-sm  font-semibold  py-1 px-5 rounded-xl hover:bg-[#ffe2e2] bg-[#02dcfe]">
                                     Academy
                                 </button>
-                                <button className="lg:text-lg font-normal py-1 px-5 rounded-xl hover:bg-[#ffe2e2]">
+                                <button className="lg:text-lg text-sm  font-semibold  py-1 px-5 rounded-xl hover:bg-[#ffe2e2] bg-[#02dcfe]">
                                     About
                                 </button>
 
